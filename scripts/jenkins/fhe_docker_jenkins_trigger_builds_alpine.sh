@@ -34,7 +34,7 @@ ARTE_USER=$1
 ARTE_PWD=$2
 
 # Pull latest from the FHE repo, master branch
-git checkout master
+git checkout v1.1.0.0-test
 # Build the Docker image for Alpine
 ./BuildDockerImage.sh alpine
 # Shut everything down before we start

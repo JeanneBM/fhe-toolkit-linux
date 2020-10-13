@@ -36,7 +36,7 @@ ARTE_PWD=$2
 BUILD_TYPE=$3
 
 # Pull latest from the FHE repo, master branch
-git checkout master
+git checkout v1.1.0.0-test
 # Build the Docker image for Ubuntu
 ./BuildDockerImage.sh ubuntu
 # Shut everything down before we start
